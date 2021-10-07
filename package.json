@@ -1,0 +1,52 @@
+{
+  "name": "ppost",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.2.0",
+    "@heroicons/vue": "^1.0.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/postcss7-compat": "^2.1.2",
+    "@tailwindcss/typography": "^0.4.1",
+    "@vue/cli": "^4.5.13",
+    "@vueform/multiselect": "^1.5.0",
+    "@vueuse/core": "^4.11.1",
+    "@vueuse/firebase": "^4.11.1",
+    "autoprefixer": "^9",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.6.0",
+    "faker": "^5.5.3",
+    "firebase": "^7.23.0",
+    "formvuelate": "^3.1.0",
+    "nanoid": "^3.1.23",
+    "pinia": "^2.0.0-alpha.19",
+    "postcss": "^7",
+    "tailwind-filter-utilities": "^2.0.0",
+    "tailwind-forms": "^1.0.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vee-validate": "^4.4.1",
+    "vue-router": "^4.0.0-0",
+    "yup": "^0.32.9",
+    "yup-phone": "^1.2.19"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.2.1"
+  }
+}
